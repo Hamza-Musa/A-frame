@@ -1,7 +1,7 @@
 # A-frame
 
 Solar System Projects:
-*gap*
+<br>
 https://xxhmu54.github.io/A-frame/SolarSystem/indexPt1.html
 https://xxhmu54.github.io/A-frame/SolarSystem/indexPt2.html
 https://xxhmu54.github.io/A-frame/SolarSystem/indexPt3.html
