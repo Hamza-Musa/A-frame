@@ -1,7 +1,6 @@
 # A-frame
 
 ### Solar System Project:
-<br>
 https://xxhmu54.github.io/A-frame/SolarSystem/indexPt1.html
 <br>
 https://xxhmu54.github.io/A-frame/SolarSystem/indexPt2.html
