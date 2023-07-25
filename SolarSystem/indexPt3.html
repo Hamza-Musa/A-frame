@@ -1,1 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Saurya Mandal</title>
+        <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene>
+            <a-entity position="0 -0.4 7">
+                <a-camera></a-camera>
+            </a-entity>
 
+            <a-sky src="https://raw.githubusercontent.com/shivjain123/Solar_System/master/assets/universe.jpg"></a-sky>
+
+            <!--Sun-->
+            <a-entity>
+                <a-sphere 
+                    position="0 0 0" 
+                    color="#e05a00" 
+                    src="https://raw.githubusercontent.com/shivjain123/Solar_System/master/assets/sun.jpg" 
+                    radius="2"
+                    animation="property:rotation; to:0 360 0; easing:linear; loop:true; dur:20000"
+                ></a-sphere>
+            </a-entity>
+
+            <!--Mercury-->
+            <a-entity position="0 0 0" animation="property:rotation; to:0 360 0; easing:linear; loop:true; dur:20000">
+                <a-sphere 
+                position="1 0 -5" radius="0.3"
+                src="https://raw.githubusercontent.com/shivjain123/Solar_System/master/assets/mercury.jpg"
+                animation="property:rotation; to:0 360 0; easing:linear; loop:true; dur:20000"
+            ></a-sphere>
+            </a-entity>
+
+            <!--Venus-->
+            <a-entity position="0 0 0" animation="property:rotation; to:0 360 0; easing:linear; loop:true; dur:25000">
+                <a-sphere 
+                    position="6 0 -5" radius="0.4" color="#eed053"
+                    src="https://raw.githubusercontent.com/shivjain123/Solar_System/master/assets/venus.jpg"
+                    animation="property:rotation; to:0 360 0; easing:linear; loop:true; dur:25000"
+                ></a-sphere>
+            </a-entity>
+
+            <!--Earth-->
+            <a-entity position="0 0 0" animation="property:rotation; to:0 360 0; easing:linear; loop:true; dur:30000">
+                <a-sphere 
+                    position="10 0 -5" radius="0.6"
+                    src="https://raw.githubusercontent.com/shivjain123/Solar_System/master/assets/earth.jpg"
+                    animation="property:rotation; to:0 360 0; easing:linear; loop:true; dur:20000" 
+                ></a-sphere>
+
+                <!--Moon-->
+                <a-entity position="0 0 0" animation="property:rotation; to:0 360 0; easing:linear; loop:true; dur:50000">
+                    <a-sphere position="10.5 0 0" radius="0.2" color="yellow"></a-sphere>
+                </a-entity>
+            </a-entity>
+
+            <!--Mars-->
+            <a-entity position="0 0 0" animation="property:rotation; to:0 360 0; easing:linear; loop:true; dur:35000">
+                <a-sphere 
+                    position="15 0 -5" radius="0.35" color="#eed053"
+                    src="https://raw.githubusercontent.com/shivjain123/Solar_System/master/assets/mars.jpg"
+                    animation="property:rotation; to:0 360 0; easing:linear; loop:true; dur:35000"
+                ></a-sphere>
+            </a-entity>
+
+            <!--Jupiter-->
+            <a-entity position="0 0 0" animation="property:rotation; to:0 360 0; easing:linear; loop:true; dur:40000">
+                <a-sphere 
+                    position="21 0 -5" radius="0.8"
+                    src="https://raw.githubusercontent.com/shivjain123/Solar_System/master/assets/jupiter.jpg"
+                    animation="property:rotation; to:0 360 0; easing:linear; loop:true; dur:40000"
+                ></a-sphere>
+            </a-entity>
+
+            <!--Saturn-->
+            <a-entity position="0 0 0" rotation="0 0 0" animation="property:rotation; to:0 360 0; easing:linear; loop:true; dur:45000">
+                <a-sphere 
+                    position="26 0 -5" radius="0.7" 
+                    src="https://raw.githubusercontent.com/shivjain123/Solar_System/master/assets/saturn.png"
+                    animation="property:rotation; to:0 360 0; easing:linear; loop:true; dur:45000"
+                ></a-sphere>
+                <!--Saturn Rings-->
+                    <a-torus position="26 0.1 -5" color="red" radius="2" rotation="90 10 0 " radius-tubular="0.015" segments-tubular="1000"></a-torus>
+                    <a-torus position="26 0.1 -5" color="pink" radius="1.9" rotation="90 10 0 " radius-tubular="0.02" segments-tubular="1000"></a-torus>
+                    <a-torus position="26 0.1 -5" color="orange" radius="1.8" rotation="90 10 0 " radius-tubular="0.025" segments-tubular="1000"></a-torus>
+            </a-entity>
+
+            <!--Uranus-->
+            <a-entity position="0 0 0" animation="property:rotation; to:0 360 0; easing:linear; loop:true; dur:50000">
+                <a-sphere position="31 0 -5" radius="0.55" color="#00fff6" 
+                          src="https://raw.githubusercontent.com/shivjain123/Solar_System/master/assets/uranus.jpg"
+                ></a-sphere>
+                <a-torus position="31 0 -4.8" rotation="0 40 0" color="#ab604a" radius-tubular="0.03" radius="1.2"></a-torus>
+            </a-entity>
+
+            <!--Neptune-->
+            <a-entity position="0 0 0" animation="property:rotation; to:0 360 0; easing:linear; loop:true; dur:55000">
+                <a-sphere position="36 0 -5" radius="0.6" color="#004aff"></a-sphere>
+            </a-entity>
+
+            <!--Pluto-->
+            <a-entity position="0 0 0" animation="property:rotation; to:0 360 0; easing:linear; loop:true; dur:65000">
+                <a-sphere position="42 0 -5" radius="0.15" color="#34acb1"
+                          src="https://raw.githubusercontent.com/shivjain123/Solar_System/master/assets/pluto.jpg"
+                ></a-sphere>
+            </a-entity>
+
+            <!--Orbits-->
+            <a-torus arc="360" radius="5.1" radius-tubular="0.01" rotation="90 0 0" color="#97979F"></a-torus>
+            <a-torus arc="360" radius="7.8" radius-tubular="0.01" rotation="90 0 0" color="#eed053"></a-torus>
+            <a-torus arc="360" radius="11" radius-tubular="0.01" rotation="90 0 0" color="#10C135"></a-torus>
+            <a-torus arc="360" radius="15.8" radius-tubular="0.01" rotation="90 0 0" color="#9C2E35"></a-torus>
+            <a-torus arc="360" radius="21.5" radius-tubular="0.01" rotation="90 0 0" color="orange"></a-torus>
+            <a-torus arc="360" radius="26.4" radius-tubular="0.01" rotation="90 0 0" color="#fae5bf"></a-torus>
+            <a-torus arc="360" radius="31.4" radius-tubular="0.01" rotation="90 0 0" color="#00fff6"></a-torus>
+            <a-torus arc="360" radius="36.5" radius-tubular="0.01" rotation="90 0 0" color="#004aff"></a-torus>
+            <a-torus arc="360" radius="42.5" radius-tubular="0.01" rotation="90 0 0" color="#34acb1"></a-torus>
+        </a-scene>
+    </body>
+</html>
