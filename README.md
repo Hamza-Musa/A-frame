@@ -4,11 +4,13 @@ Welcome to my A-frame projects. I saw Codecademy had an A-frame introductory cla
 
 ### Solar System Project:
 
-https://hamza-musa.github.io/A-frame/SolarSystem/indexPt1.html
+<img src="/SolarSystem/imgs/SolarSystem1.gif" target="_blank">
+<a href="https://hamza-musa.github.io/A-frame/SolarSystem/indexPt1.html" target="_blank">Link to Project</a>
+
 <br>
-https://hamza-musa.github.io/A-frame/SolarSystem/indexPt2.html
-<br>
-https://hamza-musa.github.io/A-frame/SolarSystem/indexPt3.html
+
+<img src="/SolarSystem/imgs/SolarSystemM42.gif" target="_blank">
+<a href="https://hamza-musa.github.io/A-frame/SolarSystem/indexMk42.html" target="_blank">Link to Project</a>
 
 ### Flower Of Life:
 
