@@ -14,7 +14,7 @@ Welcome to my A-frame projects. I saw Codecademy had an A-frame introductory cla
 
 ### Flower Of Life:
 
-[https://hamza-musa.github.io/A-frame//(FlowerOfLife)index.html](https://hamza-musa.github.io/A-frame/FlowerOfLife/index.html)
+[FlowerOfLife](https://hamza-musa.github.io/A-frame/FlowerOfLife/index.html)
 
 ### BLM:
 
